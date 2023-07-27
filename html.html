@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css.css">
+  <title>Shopping Cart</title>
+</head>
+<body>
+  <div class="cart">
+    <h1>Shopping Cart</h1>
+    <div class="items">
+      <div class="item">
+        <span class="item-name">Item 1</span>
+        <span class="item-price">$10</span>
+        <div class="item-actions">
+          <button class="decrement-btn">-</button>
+          <span class="item-quantity">1</span>
+          <button class="increment-btn">+</button>
+          <button class="delete-btn">Delete</button>
+          <button class="like-btn">❤</button>
+        </div>
+      </div>
+      <!-- Add more items here -->
+    </div>
+    <div class="total">Total: $<span id="total-price">10</span></div>
+  </div>
+  <script src="js.js"></script>
+</body>
+</html>
